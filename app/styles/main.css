@@ -1,0 +1,367 @@
+/* --- navigation --- */
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+nav a i#fixside {
+  color: #864589;
+}
+
+nav a img#mylogo {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+nav ul li a {
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  font-style: italic;
+}
+
+nav ul li a#firstlia {
+  color: #f58220;
+}
+
+nav ul li a#secondlia {
+  color: #8cc642;
+}
+
+nav ul li a#thirdlia {
+  color: #44c3d1;
+}
+
+nav ul li a#fourthlia {
+  color: #eb0d8c;
+}
+
+nav ul li a#fifthlia {
+  color: #f0e929;
+}
+
+nav ul li a#sixthlia {
+  color: #864589; 
+}
+
+/*nav ul.side-nav li a {
+  color: #9a0000;
+}
+
+nav ul.side-nav li a:hover {
+  text-decoration: underline;
+  background-color: rgba(64, 64, 64, 0.5);
+  color: #ffffff;
+}*/
+
+/*-- contact me section -- */
+div#contactsection {
+  border: 1px solid #eeeeee;
+  padding: 25px;
+  background-color: rgba(250, 250, 250, 0.2);
+}
+
+div#contactsection form i#firsti {
+  color: #f0e929;
+}
+
+div#contactsection form i#secondi {
+  color: #eb0d8c;
+} 
+
+div#contactsection form i#thirdi {
+  color: #44c3d1;
+}
+
+div#contactsection form i#fourthi {
+  color: #8cc642;
+}
+
+div#contactsection form button {
+  background-color: #f58220;
+}
+
+/* --------- style for the scrolling page --------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* horizontal scroll */
+/*body {
+    background: #000000;
+    font-family: Helvetica;
+    width: 25550px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}*/
+
+/* vertical scroll */
+body{
+    background:#000000;
+    font-family: Helvetica;
+    /*font-size: 34px;*/
+    /*letter-spacing:-1px;*/
+}
+
+/* horizontal */
+/*.section {
+    margin: 0px;
+    bottom: 0px;
+    width: 3650px;
+    float: left;
+    height: 100%;
+}*/
+
+/* vertical */
+.section{
+    margin:0px;
+    height:1750px;
+    width:100%;
+    float:left;
+    /*text-shadow:1px 1px 2px #f0f0f0;*/
+}
+
+.section h2 {
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 50px 0px 30px 50px;
+    /*text-shadow: 1px 1px 2px #f0f0f0;*/
+}
+
+.section h2#firsth2 {
+  color: #f58220;
+}
+
+.section h2#secondh2 {
+  color: #8cc642;
+}
+
+.section h2#thirdh2 {
+  color: #44c3d1;
+  margin-bottom: -25px;
+  margin-top: 25px;
+}
+
+.section h2#fourthh2 {
+  color: #eb0d8c;
+}
+
+.section h2#fifthh2 {
+  color: #f0e929;
+}
+
+.section h2#sixthh2 {
+  color: #864589; 
+  text-align: center;
+}
+
+.section p {
+    margin: 20px 0px 0px 50px;
+    width: 600px;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+.section p#firsthome {
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.section div#centerd3 {
+    margin: 20px 0px 0px 50px;
+    width: 600px;
+}
+
+.black{
+    color: #ffffff;
+    background: #000000 url(../images/black_vert.jpg) repeat-x bottom left;
+}
+
+.white {
+    color:#000000;
+    background: #ffffff url(../images/white_vert.jpg) repeat-x bottom left;
+}
+
+.section ul {
+    list-style: none;
+    margin: 20px 0px 0px 550px;
+}
+
+.black ul li {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    color: #aaa;
+}
+
+.black ul li a {
+    display: block;
+    color: #f0f0f0;
+}
+
+.black ul li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.white ul li {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    color: #aaaaaa;
+}
+
+.white ul li a {
+    display: block;
+    color: #222222;
+}
+
+.white ul li a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+a {
+    color:#fff;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+/* ----------- end of style for the scrolling ------------- */
+
+/* ----------- style for the d3 animated chart ------------ */
+/*p,div {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+}*/
+
+
+.t2 { 
+    font-size: 150%; 
+}
+
+/*float*/
+.fl { 
+    float: left; 
+}
+
+.fr { 
+    float: right; 
+}
+
+.fn { 
+    float: none; 
+}
+
+.title { 
+    padding-left: 260px;
+}
+
+.y-axis path {
+  fill: none;
+  stroke: none;
+}
+
+.y-axis line, .string,
+.x-axis path, .x-axis line {
+  fill: none;
+  stroke: #a1a1a1;
+  shape-rendering: crispEdges;
+}
+
+.xLabel, .value { 
+    text-anchor: middle; 
+}
+
+.y-unit {
+  alignment-baseline: middle;
+}
+
+.y-unit-right {
+  text-anchor: end;
+}
+
+.wide-tick line {
+  stroke-width: 7px;
+}
+
+.numb, .y-axis text, .x-axis text {
+  pointer-events: none;
+}
+
+.brush .extent {
+  stroke: #FFF;
+  shape-rendering: crispEdges;
+  fill: #E6E7E8;
+  opacity: 1.0;
+}
+
+.clickable {
+  cursor: hand;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+text { 
+    font-size: 12px; 
+}
+
+.ctext { 
+    text-align: "middle";
+}
+
+.hide { 
+    display: none; 
+}
+
+.dbg-vis-border {
+  border: #797979 solid 1px;
+}
+
+.dbg-svg-green {
+  fill: #00ff00;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* layout stuff */
+.mt1 {
+  margin-top: 25px;
+}
+
+.pt1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.pr2 {
+  padding-right: 30px;
+}
+
+.ml2 {
+  margin-left: 40px;
+}
+
+/* ----------- end of style for the animated d3 chart ------------ */
+        
